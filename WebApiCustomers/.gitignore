@@ -5,4 +5,4 @@ bin
 packages
 
 .DS_Store
-staticwebassets.pack.sentinel
+obj/staticwebassets.pack.sentinel
