@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\WebApiCustomers\\WebApiCustomers\\WebApiCustomers.csproj": {}
+    "/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/WebApiCustomers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\WebApiCustomers\\WebApiCustomers\\WebApiCustomers.csproj": {
+    "/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/WebApiCustomers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\WebApiCustomers\\WebApiCustomers\\WebApiCustomers.csproj",
+        "projectUniqueName": "/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/WebApiCustomers.csproj",
         "projectName": "WebApiCustomers",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\WebApiCustomers\\WebApiCustomers\\WebApiCustomers.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\WebApiCustomers\\WebApiCustomers\\obj\\",
+        "projectPath": "/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/WebApiCustomers.csproj",
+        "packagesPath": "/Users/andresdiaz/.nuget/packages/",
+        "outputPath": "/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/andresdiaz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,8 +67,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -82,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
