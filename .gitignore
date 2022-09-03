@@ -1,2 +1,8 @@
 bin
 obj
+.vs/WebApiCustomers/v17/.suo
+WebApiCustomers/bin/Debug/net6.0/WebApiCustomers.dll
+WebApiCustomers/bin/Debug/net6.0/WebApiCustomers.pdb
+WebApiCustomers/obj/Debug/net6.0/WebApiCustomers.dll
+WebApiCustomers/obj/Debug/net6.0/WebApiCustomers.pdb
+WebApiCustomers/obj/staticwebassets.pack.sentinel
