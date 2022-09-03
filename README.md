@@ -44,7 +44,7 @@ One of the common uses is when we have to map one object type to another. It is 
 See more details [here](https://automapper.org)
 
 
-## SQL Sintaxt for SQL Database 
+## SQL Sintax for SQL Database 
 
 ```SQL
 CREATE DATABASE CustomerDemoDb 
