@@ -3,6 +3,7 @@ using WebApiCustomers.Data;
 using WebApiCustomers.Repositories;
 using AutoMapper;
 using System.Reflection;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,7 @@ builder.Services.AddTransient<ICustomerRepository, CustomerRepository>();
 
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
-
+builder.Services.AddMediatR(Assembly.GetCallingAssembly());
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -33,7 +34,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

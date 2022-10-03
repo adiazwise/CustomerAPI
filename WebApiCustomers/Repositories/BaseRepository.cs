@@ -18,6 +18,8 @@ public class BaseRepository<TEntity> : IRepository<TEntity> where TEntity : clas
     public async Task DeleteAsync(int id)
     {
         var dataToDelete = await _dbset.FindAsync(id);
+       
+        if(dataToDelete is not null)
         _dbset.Remove(dataToDelete);
     }
     public async Task UpdateAsync(TEntity entity)
