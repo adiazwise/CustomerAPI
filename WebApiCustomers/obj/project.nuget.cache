@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "qGCn0Pf7WyMHpRJHD6K21CiNE+cZUyiTwsrE7vGDIGYceI88N5LKkjk5EjjBq4E1TOo3+4WDh8uucAC7nCDvEw==",
+  "dgSpecHash": "5BcOUGUlJGC2hKcmIZkVb3CSX5dx1dlqLv4hyEopxZOrxZkaf6xe4Q00xttNWpdJjsUxTuWXGHbyN+LAZ4u4dA==",
   "success": true,
   "projectFilePath": "/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/WebApiCustomers.csproj",
   "expectedPackageFiles": [
     "/Users/andresdiaz/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/Users/andresdiaz/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/andresdiaz/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/andresdiaz/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
+    "/Users/andresdiaz/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/andresdiaz/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/10.0.1/mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "/Users/andresdiaz/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/andresdiaz/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/andresdiaz/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

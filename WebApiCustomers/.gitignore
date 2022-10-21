@@ -1,8 +1,8 @@
-obj
-bin
-*.suo
+ *.suo
 *.user
+
+bin
+obj
 packages
 
-.DS_Store
-obj/staticwebassets.pack.sentinel
+

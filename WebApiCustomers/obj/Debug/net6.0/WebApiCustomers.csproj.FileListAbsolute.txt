@@ -124,3 +124,6 @@ C:/Users/andre/source/repos/WebApiCustomers/WebApiCustomers/bin/Debug/net6.0/Aut
 /Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/obj/Debug/net6.0/scopedcss/bundle/WebApiCustomers.styles.css
 /Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/obj/Debug/net6.0/WebApiCustomers.csproj.CopyComplete
 /Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/obj/Debug/net6.0/WebApiCustomers.genruntimeconfig.cache
+/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/bin/Debug/net6.0/MediatR.dll
+/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/bin/Debug/net6.0/MediatR.Contracts.dll
+/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/bin/Debug/net6.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
