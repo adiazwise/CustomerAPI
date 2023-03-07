@@ -5,7 +5,7 @@ using WebApiCustomers.Repositories;
 
 namespace WebApiCustomers.Handlers;
 
-public sealed class RemoveExistingCustomerHandler : IRequestHandler<RemoveExistingCustomerCommand, Unit>
+public sealed class RemoveExistingCustomerHandler : IRequestHandler<RemoveExistingCustomerCommand>
 {
     private readonly ICustomerRepository _customerRepository;
     private readonly IMapper _mapper;
@@ -16,11 +16,10 @@ public sealed class RemoveExistingCustomerHandler : IRequestHandler<RemoveExisti
         _customerRepository = customerRepository;
         _mapper = mapper;
     }
-    public async Task<Unit> Handle(RemoveExistingCustomerCommand request, CancellationToken cancellationToken)
+    public async Task Handle(RemoveExistingCustomerCommand request, CancellationToken cancellationToken)
     {
             await _customerRepository.DeleteAsync(request.Id);
             await _customerRepository.SaveAsync();
-
-            return Unit.Value;
-    }
+            return;
+    }   
 }

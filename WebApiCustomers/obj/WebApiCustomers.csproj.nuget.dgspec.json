@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/WebApiCustomers.csproj": {}
+    "/Users/andresdiaz/Documents/Learning/ApiCustomerMediatR12/CustomerAPI/WebApiCustomers/WebApiCustomers.csproj": {}
   },
   "projects": {
-    "/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/WebApiCustomers.csproj": {
+    "/Users/andresdiaz/Documents/Learning/ApiCustomerMediatR12/CustomerAPI/WebApiCustomers/WebApiCustomers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/WebApiCustomers.csproj",
+        "projectUniqueName": "/Users/andresdiaz/Documents/Learning/ApiCustomerMediatR12/CustomerAPI/WebApiCustomers/WebApiCustomers.csproj",
         "projectName": "WebApiCustomers",
-        "projectPath": "/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/WebApiCustomers.csproj",
+        "projectPath": "/Users/andresdiaz/Documents/Learning/ApiCustomerMediatR12/CustomerAPI/WebApiCustomers/WebApiCustomers.csproj",
         "packagesPath": "/Users/andresdiaz/.nuget/packages/",
-        "outputPath": "/Users/andresdiaz/Documents/Learning/WebApiCustomers/WebApiCustomers/obj/",
+        "outputPath": "/Users/andresdiaz/Documents/Learning/ApiCustomerMediatR12/CustomerAPI/WebApiCustomers/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/andresdiaz/.nuget/NuGet/NuGet.Config"
@@ -48,11 +48,7 @@
             },
             "MediatR": {
               "target": "Package",
-              "version": "[10.0.1, )"
-            },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[12.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

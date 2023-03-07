@@ -7,7 +7,7 @@ using WebApiCustomers.Dtos;
 using WebApiCustomers.Repositories;
 
 namespace WebApiCustomers.Handlers;
-public sealed class EditExistingCustomerHandler : IRequestHandler<EditExistingCustomerCommand, Unit>
+public sealed class EditExistingCustomerHandler : IRequestHandler<EditExistingCustomerCommand>
 {
     private readonly ICustomerRepository _customerRepository;
     private readonly IMapper _mapper;
@@ -18,10 +18,10 @@ public sealed class EditExistingCustomerHandler : IRequestHandler<EditExistingCu
          _customerRepository = customerRepository;
          _mapper = mapper;
     }
-    public async Task<Unit> Handle(EditExistingCustomerCommand request, CancellationToken cancellationToken)
+    public async Task Handle(EditExistingCustomerCommand request, CancellationToken cancellationToken)
     {
         var customerToUpdate =  _mapper.Map<Customer>(request.customerToUpdate);
         await _customerRepository.UpdateAsync(customerToUpdate);
-        return Unit.Value;
+        return;
     }
 }
